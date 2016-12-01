@@ -1123,12 +1123,14 @@ $.extend(Selectize.prototype, {
 		$dropdown_content.html(html);
 
 		// highlight matching terms inline
-		if (self.settings.highlight && results.query.length && results.tokens.length) {
-			$dropdown_content.removeHighlight();
-			for (i = 0, n = results.tokens.length; i < n; i++) {
-				highlight($dropdown_content, results.tokens[i].regex);
-			}
-		}
+    if (self.settings.highlight) {
+      $dropdown_content.removeHighlight();
+      if (results.query.length && results.tokens.length) {
+        for (i = 0, n = results.tokens.length; i < n; i++) {
+          highlight($dropdown_content, results.tokens[i].regex);
+        }
+      }
+    }
 
 		// add "selected" class to selected options
 		if (!self.settings.hideSelected) {
@@ -1138,11 +1140,11 @@ $.extend(Selectize.prototype, {
 		}
 
 		// add create option
-		has_create_option = self.canCreate(query);
-		if (has_create_option) {
-			$dropdown_content.prepend(self.render('option_create', {input: query}));
-			$create = $($dropdown_content[0].childNodes[0]);
-		}
+    has_create_option = self.canCreate(query);
+    if (has_create_option && results.items.length === 0) {
+      $dropdown_content.prepend(self.render('option_create', {input: query}));
+      $create = $($dropdown_content[0].childNodes[0]);
+    }
 
 		// activate
 		self.hasOptions = results.items.length > 0 || has_create_option;
