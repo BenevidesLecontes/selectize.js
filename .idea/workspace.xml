@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d07f073-f98f-4940-ba7e-f358c777800e" name="Default" comment="" />
+    <list default="true" id="0d07f073-f98f-4940-ba7e-f358c777800e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/less/plugins/remove_button.less" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/selectize.bootstrap2.css" afterPath="$PROJECT_DIR$/dist/css/selectize.bootstrap2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/selectize.bootstrap3.css" afterPath="$PROJECT_DIR$/dist/css/selectize.bootstrap3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/selectize.css" afterPath="$PROJECT_DIR$/dist/css/selectize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/selectize.default.css" afterPath="$PROJECT_DIR$/dist/css/selectize.default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/selectize.legacy.css" afterPath="$PROJECT_DIR$/dist/css/selectize.legacy.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/selectize.js" afterPath="$PROJECT_DIR$/dist/js/selectize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/selectize.min.js" afterPath="$PROJECT_DIR$/dist/js/selectize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/standalone/selectize.js" afterPath="$PROJECT_DIR$/dist/js/standalone/selectize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/standalone/selectize.min.js" afterPath="$PROJECT_DIR$/dist/js/standalone/selectize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/less/selectize.less" afterPath="$PROJECT_DIR$/dist/less/selectize.less" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -57,6 +69,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/selectize.js" />
+        <option value="$PROJECT_DIR$/dist/js/standalone/selectize.js" />
       </list>
     </option>
   </component>
@@ -131,6 +144,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,12 +241,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480601197629</updated>
-      <workItem from="1480601198988" duration="400000" />
+      <workItem from="1480601198988" duration="716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400000" />
+    <option name="totallyTimeSpent" value="716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="6" />
